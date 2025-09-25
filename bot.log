@@ -1,0 +1,426 @@
+2025-09-24 00:51:00 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 00:51:00 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 00:51:00 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 00:51:02 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-09-24 00:59:26 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 00:59:27 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 00:59:27 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 00:59:28 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-09-24 00:59:59 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:00:00 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:00:00 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 01:00:01 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-09-24 01:03:41 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:03:42 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:03:42 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 01:03:43 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-09-24 01:32:16 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:32:16 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:32:16 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 01:32:18 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-09-24 01:44:14 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:44:15 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:44:15 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 01:44:16 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2025-09-24 01:48:04 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:48:05 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:48:05 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 01:48:06 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 45, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2025-09-24 01:50:12 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:50:12 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:50:12 | INFO    | cli | CLI: market BTCUSDT BUY 0.001
+2025-09-24 01:50:13 | ERROR   | market_orders | Failed to place market order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\market_orders.py", line 41, in place_market_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2025-09-24 01:57:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:57:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 01:57:38 | INFO    | cli | CLI: market BTCUSDT BUY 0.001
+2025-09-24 01:57:39 | ERROR   | market_orders | Failed to place market order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\market_orders.py", line 42, in place_market_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2025-09-24 02:03:54 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:03:55 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:03:55 | INFO    | cli | CLI: market BTCUSDT BUY 0.001
+2025-09-24 02:03:55 | ERROR   | market_orders | Failed to place market order: name 'time' is not defined
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\market_orders.py", line 38, in place_market_order
+    timestamp= int(time.time() * 1000) + offset,
+NameError: name 'time' is not defined
+2025-09-24 02:04:26 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:04:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:04:39 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:04:39 | INFO    | cli | CLI: market BTCUSDT BUY 0.001
+2025-09-24 02:04:40 | ERROR   | market_orders | Failed to place market order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\market_orders.py", line 48, in place_market_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2025-09-24 02:09:14 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:09:15 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:09:15 | INFO    | cli | CLI: market BTCUSDT BUY 0.001
+2025-09-24 02:09:16 | INFO    | market_orders | market_order response: {'orderId': 5677536210, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1b23510c279785b80e9bfb', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758659956725}
+2025-09-24 02:12:10 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:12:30 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:12:31 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:12:31 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 60000.0
+2025-09-24 02:12:33 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-4024): Limit price can't be lower than 106214.84.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 51, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-4024): Limit price can't be lower than 106214.84.
+2025-09-24 02:13:13 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:13:14 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:13:16 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 106214.84
+2025-09-24 02:13:17 | ERROR   | limit_orders | Failed to place limit order: APIError(code=-4014): Price not increased by tick size.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\limit_orders.py", line 51, in place_limit_order
+    resp = client.futures_create_order(**params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-4014): Price not increased by tick size.
+2025-09-24 02:13:54 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:13:54 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:13:55 | INFO    | cli | CLI: limit BTCUSDT SELL 0.001 @ 200000.0
+2025-09-24 02:13:56 | INFO    | limit_orders | limit_order response: {'orderId': 5677539917, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ21cc64b33bef07a95ab2ba', 'price': '200000.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758660236553}
+2025-09-24 02:35:24 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:35:25 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-24 02:35:25 | INFO    | cli_entry | CLI: limit BTCUSDT SELL 0.001 @ 200000.0
+2025-09-24 02:35:27 | INFO    | limit_orders | limit_order response: {'orderId': 5677553641, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd8e9d5e4160f531146770c', 'price': '200000.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758661527125}
+2025-09-25 02:05:29 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:05:30 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:08:58 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:09:00 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:09:00 | INFO    | cli_entry | CLI: oco BTCUSDT SELL 59000.0 58900.0 62000.0 0.001
+2025-09-25 02:09:00 | ERROR   | cli_entry | Error placing OCO order: name 'place_oco_order' is not defined
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 47, in oco
+    resp = place_oco_order(
+NameError: name 'place_oco_order' is not defined
+2025-09-25 02:09:59 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:10:00 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:12:33 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:12:34 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:12:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:12:47 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:12:48 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:13:30 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:13:31 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:13:32 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:13:32 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:13:32 | INFO    | cli_entry | CLI: oco BTCUSDT SELL 59000.0 58900.0 62000.0 0.001
+2025-09-25 02:13:33 | ERROR   | limit_orders | Failed to place OCO order: 'Client' object has no attribute 'futures_create_oco_order'
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 63, in place_oco_order
+    resp = client.futures_create_oco_order(**params)
+AttributeError: 'Client' object has no attribute 'futures_create_oco_order'
+2025-09-25 02:13:33 | ERROR   | cli_entry | Error placing OCO order: 'Client' object has no attribute 'futures_create_oco_order'
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 49, in oco
+    resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 63, in place_oco_order
+    resp = client.futures_create_oco_order(**params)
+AttributeError: 'Client' object has no attribute 'futures_create_oco_order'
+2025-09-25 02:26:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:26:47 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:26:49 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:26:50 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:26:50 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 27000.0 30000.0 0.001
+2025-09-25 02:26:51 | ERROR   | oco_orders | Failed to place OCO order: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 84, in place_oco_order
+    stop_resp = client.futures_create_order(**stop_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+2025-09-25 02:26:51 | ERROR   | cli_entry | Error placing OCO order: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 51, in oco
+    stop_resp, tp_resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 84, in place_oco_order
+    stop_resp = client.futures_create_order(**stop_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+2025-09-25 02:27:44 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:27:45 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:27:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:27:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:27:46 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 27000.0 30000.0 0.001
+2025-09-25 02:27:48 | INFO    | oco_orders | stop_loss response: {'orderId': 5678556196, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ47066b1c640dad00b85b72', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '27000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758747469128}
+2025-09-25 02:27:48 | ERROR   | oco_orders | Failed to place OCO order: APIError(code=-2021): Order would immediately trigger.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 97, in place_oco_order
+    tp_resp = client.futures_create_order(**tp_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2021): Order would immediately trigger.
+2025-09-25 02:27:48 | ERROR   | cli_entry | Error placing OCO order: APIError(code=-2021): Order would immediately trigger.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 51, in oco
+    stop_resp, tp_resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 97, in place_oco_order
+    tp_resp = client.futures_create_order(**tp_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2021): Order would immediately trigger.
+2025-09-25 02:30:17 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:30:18 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:30:19 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:30:20 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:30:20 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 27000.0 30000.0 0.001
+2025-09-25 02:30:21 | ERROR   | cli_entry | Error placing OCO order: Invalid OCO for LONG @ 113416.84971631: stop 27000.0 must be < mark, limit 30000.0 must be > mark
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 51, in oco
+    stop_resp, tp_resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 70, in place_oco_order
+    validate_oco_prices(side, stop_price, limit_price, mark_price)
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 35, in validate_oco_prices
+    raise ValueError(
+ValueError: Invalid OCO for LONG @ 113416.84971631: stop 27000.0 must be < mark, limit 30000.0 must be > mark
+2025-09-25 02:32:31 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:32:32 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:32:33 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:32:33 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:32:34 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 11000.0 12000.0 0.001
+2025-09-25 02:32:35 | ERROR   | cli_entry | Error placing OCO order: Invalid OCO for LONG @ 113442.71528369: stop 11000.0 must be < mark, limit 12000.0 must be > mark
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 51, in oco
+    stop_resp, tp_resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 70, in place_oco_order
+    validate_oco_prices(side, stop_price, limit_price, mark_price)
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 35, in validate_oco_prices
+    raise ValueError(
+ValueError: Invalid OCO for LONG @ 113442.71528369: stop 11000.0 must be < mark, limit 12000.0 must be > mark
+2025-09-25 02:33:11 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:33:12 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:33:13 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:33:13 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:33:14 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 110000.0 120000.0 0.001
+2025-09-25 02:33:15 | ERROR   | oco_orders | Failed to place OCO order: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 93, in place_oco_order
+    stop_resp = client.futures_create_order(**stop_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+2025-09-25 02:33:15 | ERROR   | cli_entry | Error placing OCO order: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+Traceback (most recent call last):
+  File "E:\grind\Web Dev\binance-api\src\cli_entry.py", line 51, in oco
+    stop_resp, tp_resp = place_oco_order(
+  File "E:\grind\Web Dev\binance-api\src\advanced_orders\oco_order.py", line 93, in place_oco_order
+    stop_resp = client.futures_create_order(**stop_params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 7659, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 126, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+  File "E:\grind\Web Dev\binance-api\venv\lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1106): Parameter 'reduceonly' sent when not required.
+2025-09-25 02:35:04 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:35:05 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:35:06 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:35:06 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 02:35:07 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 110000.0 120000.0 0.001
+2025-09-25 02:35:08 | INFO    | oco_orders | stop_loss response: {'orderId': 5678560335, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJc3aa19572e0928d31c60f4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '110000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758747909960}
+2025-09-25 02:35:09 | INFO    | oco_orders | take_profit response: {'orderId': 5678560338, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ23c8133e9533af66109a01', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'TAKE_PROFIT_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '120000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'TAKE_PROFIT_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758747910400}
+2025-09-25 14:24:27 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:24:28 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:24:29 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:24:30 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:25:44 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:25:45 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:25:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:25:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:27:37 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:27:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:27:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:27:39 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:14 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:15 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:16 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:16 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:40 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:41 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:42 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:28:43 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:29:41 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:29:42 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:29:44 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:29:45 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:30:45 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:30:45 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:30:47 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:30:48 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:32:10 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:32:11 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:32:11 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:32:14 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:35:46 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:35:47 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:35:48 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:35:49 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:36:37 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:36:38 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:36:39 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:36:39 | INFO    | client_factory | Created futures client in TESTNET mode with base https://testnet.binancefuture.com
+2025-09-25 14:36:40 | INFO    | cli_entry | CLI: oco BTCUSDT BUY 110000.0 120000.0 0.001
+2025-09-25 14:36:41 | INFO    | oco_orders | stop_loss response: {'orderId': 5679196212, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ42ed71ed048cb80bedefa6', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '110000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758791202709}
+2025-09-25 14:36:41 | INFO    | oco_orders | take_profit response: {'orderId': 5679196213, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4730793d71048d475ca40d', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'TAKE_PROFIT_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '120000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'TAKE_PROFIT_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758791202886}
