@@ -12,13 +12,14 @@ The functions are connected to cli command entry point, there are options that c
 # Usage Commands:
 Each command can be understood as python->entry to cli options->symbol representing the stock you want to trade->Whether to buy or sell(pick a side)->quantity of stocks->
 Here, 
+```
 For MARKET Orders(order at market price):
 python -m src.cli_entry market --symbol BTCUSDT --side BUY --quantity 0.001       
 For LIMIT orders(order at market price upto a limit):
 python -m src.cli_entry limit --symbol BTCUSDT --side SELL --quantity 0.001 --price 60000
 For OCO orders:
 python -m src.cli_entry oco --symbol BTCUSDT --side BUY --stop-price 110000 --limit-price 120000 --quantity 0.001
-
+```
 
 Binance does not have support for oco orders for future trading, only spot trading.
 
@@ -26,13 +27,13 @@ Binance does not have support for oco orders for future trading, only spot tradi
 Additional commands:
 
 Check version of cli(can be used CI/CD management):
-
+```
 python -m src.cli_entry version
+```
 
 
 
-
-
+```plaintext
 project_root/
 ├── src/
 │   ├── advanced_orders/
@@ -48,8 +49,10 @@ project_root/
 ├── bot.log                    runtime logs (created by logger)
 ├── README.md
 └── requirements.txt
+```
 
-Some credentials from binance futures tesnet page, others are set values you need to pass as parameters
+# API SETUP:
+Some credentials from binance futures tesnet page, others are set values you need to pass as parameters.
 Make a .env file and add these variables, use python-dotenv library in your virtual enviornment, and call the variables using load.env().
 
 1. BINANCE_API_KEY=d6........
@@ -103,5 +106,5 @@ TAKE_PROFIT_MARKET order placed:
 {'orderId': 5678560338, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ23c8133e9533af66109a01', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'TAKE_PROFIT_MARKET', 'reduceOnly': True, 'closePosition': True, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '120000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'TAKE_PROFIT_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758747910400}
 ```
 
-**Important:** Always set `USE_TESTNET=true` before real trading.  
+**Important:** Always set `USE_TESTNET=true` before trading.  
 *Tip:* Run `--help` to see all options.
